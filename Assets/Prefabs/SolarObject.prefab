@@ -670,6 +670,7 @@ MonoBehaviour:
   UIPanel: {fileID: 6990543595703665973}
   PlanetNameTxt: {fileID: 4422460038872913539}
   PlanetInfoTxt: {fileID: 7262588104031901239}
+  simulationPaused: 0
 --- !u!54 &6178555497705433412
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -847,7 +848,7 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
